@@ -20,11 +20,13 @@ const PozoviteNasOdmah = () => {
           <div>
             <h2 className="text-4xl text-primary py-3">
               <FaRegCircleCheck className="mb-4 text-6xl bg-muted-foreground rounded-full mx-auto md:mx-0" />
-              Potreban vam je transport i šlep vašeg vozila?
+              Razmišljate o izgradnji bazena?
             </h2>
-            <p className="text-3xl">Šlep služba Purić Čačak</p>
+            <p className="text-3xl">
+              Kontaktirajte nas za besplatne konsultacije!
+            </p>
           </div>
-          <a href="tel:+381659480700">
+          <a href="tel:+381603619391">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
