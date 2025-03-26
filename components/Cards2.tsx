@@ -13,20 +13,41 @@ const Cards2 = ({
 }) => {
   return (
     <div className="">
-      <div className="container px-5 mx-auto py-10 md:py-16 border-b-2 space-y-10 md:space-y-20">
+      <div className="container px-5 mx-auto py-10 md:py-16 space-y-10 md:space-y-20">
         <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
-        <div className="grid md:grid-cols-3 text-center gap-6 md:gap-8 items-stretch">
-          {data.map((item) => {
-            return (
-              <MotionComponent1 key={item.id}>
-                <OneCard key={item.id} item={item} />;
-              </MotionComponent1>
-            );
-          })}
+        <p className="first-letter:pl-6 text-xl md:text-3xl">
+          Termo bazeni su specijalni bazeni izrađeni od{" "}
+          <span className="font-bold text-primary">
+            termoizolacionih panela{" "}
+          </span>
+          koji pružaju{" "}
+          <span className="font-bold text-primary">
+            izuzetnu toplotnu efikasnost
+          </span>
+          . Ovi bazeni omogućavaju{" "}
+          <span className="font-bold text-primary">
+            brže zagrevanje vode, smanjuju gubitak toplote i značajno smanjuju
+            troškove energije
+          </span>{" "}
+          u poređenju sa klasičnim betonskim ili montažnim bazenima.
+        </p>
+        <div className="space-y-6 md:space-y-8">
+          <div className="grid md:grid-cols-4 text-center gap-6 md:gap-8 items-stretch">
+            {data.map((item) => {
+              return (
+                <MotionComponent1 key={item.id}>
+                  <OneCard key={item.id} item={item} />
+                </MotionComponent1>
+              );
+            })}
+          </div>
         </div>
-        <p className="first-letter:pl-6 text-xl md:text-3xl">{text.text}</p>
+        <p className="first-letter:pl-6 text-xl md:text-3xl">
+          Bilo da želite bazen za privatnu upotrebu, hotel, spa centar ili
+          wellness kompleks, termo bazeni su idealno rešenje za vas!
+        </p>
       </div>
     </div>
   );
@@ -39,13 +60,17 @@ const OneCard = ({ item }: { item: Cards2Data }) => {
 
   return (
     <Card className="h-full">
-      <CardHeader className=""></CardHeader>
-      <CardContent className="flex gap-5 items-center text-xl md:text-3xl justify-start">
-        <div className=" md:text-4xl text-primary ">
-          {" "}
-          <IconComponent className="text-4xl md:text-6xl" />
+      <CardHeader className="relative z-10">
+        {" "}
+        <div className="flex gap-5 items-center text-2xl md:text-3xl justify-center ">
+          <div className="text-5xl md:text-7xl text-primary">
+            <IconComponent className="" />
+          </div>
+          <p className="inline-block">{item.title}</p>
         </div>
-        <p className="text-left">{item.title}</p>
+      </CardHeader>
+      <CardContent className="relative z-10 md:space-y-4">
+        <p className=" first-letter:pl-6  text-md md:text-lg">{item.text}</p>
       </CardContent>
     </Card>
   );

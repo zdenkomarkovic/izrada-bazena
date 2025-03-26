@@ -14,29 +14,8 @@ export const navList = [
     link: "/",
   },
   {
-    title: "Usluge",
-    list: [
-      {
-        title: "Kuhinje",
-        link: "",
-      },
-      {
-        title: "Plakari",
-        link: "",
-      },
-      {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
-        link: "",
-      },
-    ],
-  },
-  {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    title: "Naše usluge",
+    link: "/usluge",
   },
   {
     title: "Kontakt",
@@ -145,26 +124,32 @@ export const cards1Data: Cards1Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Vrhunska Kvalitetna Izrada",
+    text: "Koristimo najkvalitetnije termoizolacione materijale za dug vek trajanja.",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Individualni Pristup",
+    text: "Svaki bazen dizajniramo i izrađujemo prema željama klijenta.",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Energetska Efikasnost",
+    text: "Ušteda energije i održavanje optimalne temperature vode.",
   },
   {
     id: 4,
     icon: GiWeight,
-    title: "Srbija i inostranstvo",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Brza Montaža",
+    text: "Kratki rokovi izrade i minimalni građevinski radovi.",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Kompletna Usluga",
+    text: " Od projektovanja i izrade do održavanja i servisa.",
   },
 ];
 
@@ -249,20 +234,26 @@ export const cards2Data: Cards2Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Elektroinstalacije",
-    text: "",
+    title: "Energetska efikasnost",
+    text: "Manja potrošnja struje i brže zagrevanje vode",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Elektro ormani",
-    text: "",
+    title: "Manji gubitak vode",
+    text: "Termoizolacija smanjuje isparavanje i održava optimalnu temperaturu",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Industrijski elektro ormani",
-    text: "",
+    title: "Brza i jednostavna izgradnja",
+    text: "Postavljanje termo bazena je brže i jeftinije u odnosu na klasične betonske bazene",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Dugotrajnost i otpornost",
+    text: "Visokokvalitetni materijali otporni na vremenske uslove i hemijske uticaje",
   },
 ];
 

@@ -61,7 +61,7 @@ const About2 = () => {
           className="rounded-3xl overflow-hidden  md:w-1/3"
         >
           <Image
-            src={"/puric.jpg"}
+            src={"/bazen (10).jpg"}
             width={500}
             height={800}
             alt="slep puric cacak "

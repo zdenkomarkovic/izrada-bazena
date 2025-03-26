@@ -1,13 +1,10 @@
 import About2 from "@/components/About2";
 import BackgroundImage from "@/components/BackgroundImage";
-import Cardlist from "@/components/Cardlist";
 import Cards1 from "@/components/Cards1";
 import Cards2 from "@/components/Cards2";
-import Cards2Kosina from "@/components/Cards2Kosina";
 import CardWithImage from "@/components/CardWithImage";
 import Hero from "@/components/Hero";
 import PozoviteNasOdmahImage from "@/components/PozoviteNasOdmahImage";
-import Testemonials from "@/components/Testimonials";
 import { cards1Data, cards2Data, cards2DataText } from "@/constants/index";
 
 export default function Home() {
@@ -15,22 +12,17 @@ export default function Home() {
     <div className="">
       <Hero />
       <About2 />
-      <CardWithImage />
+
       <PozoviteNasOdmahImage />
-      <Cards1 title={"dodaj naslov"} data={cards1Data} />
       <Cards2
-        title={"Elektroinstalacije i elektro ormani"}
+        title={"Šta Su Termo Bazeni?"}
         data={cards2Data}
         text={cards2DataText}
       />
-      <Cards2Kosina
-        title={"Elektroinstalacije i elektro ormani"}
-        data={cards2Data}
-        text={cards2DataText}
-      />
-      <Cardlist />
+      <Cards1 title={"Zašto Izabrati Grad Mont?"} data={cards1Data} />
+
       <BackgroundImage />
-      <Testemonials />
+      <CardWithImage />
     </div>
   );
 }

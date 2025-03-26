@@ -9,8 +9,8 @@ const Cards1 = ({ title, data }: { title: string; data: Cards1Data[] }) => {
         <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
-        <div className="grid md:grid-cols-4 text-center gap-6 md:gap-8 items-stretch">
-          {data.map((item) => {
+        <div className="grid md:grid-cols-3 text-center gap-6 md:gap-8 items-stretch">
+          {data.slice(0, 3).map((item) => {
             return (
               <MotionComponent1 key={item.id}>
                 <OneCard key={item.id} item={item} />;
@@ -18,6 +18,19 @@ const Cards1 = ({ title, data }: { title: string; data: Cards1Data[] }) => {
             );
           })}
         </div>
+        <div className="grid md:grid-cols-2 text-center gap-6 md:gap-8 items-stretch">
+          {data.slice(3).map((item) => {
+            return (
+              <MotionComponent1 key={item.id}>
+                <OneCard key={item.id} item={item} />;
+              </MotionComponent1>
+            );
+          })}
+        </div>
+        <p className="first-letter:pl-6 text-xl md:text-3xl">
+          Naš cilj je da svaki klijent dobije savršeno rešenje za svoje potrebe,
+          uz maksimalan komfor i dugoročnu uštedu energije.
+        </p>
       </div>
     </div>
   );
