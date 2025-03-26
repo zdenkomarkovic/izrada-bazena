@@ -1,7 +1,5 @@
-import Cards2Kosina from "@/components/Cards2Kosina";
 import IzradaBazena from "@/components/IzradaBazena";
 import Tabela from "@/components/Tabela";
-import { cards2Data, cards2DataText } from "@/constants/index";
 import React from "react";
 import { IoMdCheckboxOutline } from "react-icons/io";
 import { MdOutlineAddBox } from "react-icons/md";
@@ -194,11 +192,11 @@ const page = () => {
         </ul>
 
         <Tabela />
-        <Cards2Kosina
+        {/* <Cards2Kosina
           title={"Elektroinstalacije i elektro ormani"}
           data={cards2Data}
           text={cards2DataText}
-        />
+        /> */}
         <p className="first-letter:pl-6 text-lg md:text-3xl"></p>
         <IzradaBazena />
       </div>

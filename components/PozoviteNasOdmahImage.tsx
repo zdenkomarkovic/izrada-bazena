@@ -7,7 +7,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-foreground text-muted pt-10">
+    <div className="bg-primary text-muted pt-10">
       <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:gap-20">
         <Image
           src={"/slep puric.jpg"}
@@ -18,8 +18,8 @@ const PozoviteNasOdmah = () => {
         />
         <div className="flex flex-col gap-6 text-center md:text-left">
           <div>
-            <h2 className="text-4xl text-primary py-3">
-              <FaRegCircleCheck className="mb-4 text-6xl bg-muted-foreground rounded-full mx-auto md:mx-0" />
+            <h2 className="text-4xl  py-3">
+              <FaRegCircleCheck className="mb-4 text-6xl rounded-full mx-auto md:mx-0" />
               Razmišljate o izgradnji bazena?
             </h2>
             <p className="text-3xl">
