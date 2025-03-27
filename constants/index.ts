@@ -14,8 +14,12 @@ export const navList = [
     link: "/",
   },
   {
-    title: "Naše usluge",
-    link: "/usluge",
+    title: "Bazeni",
+    link: "/bazeni",
+  },
+  {
+    title: "Izrada Bazena",
+    link: "/Izradabazena",
   },
   {
     title: "Kontakt",
@@ -261,5 +265,118 @@ export interface Cards2DataText {
   text: string;
 }
 export const cards2DataText: Cards2DataText = {
-  text: "Pružamo usluge izrade, montaže i održavanja elektro ormana za domaćinstva, poslovne prostore i industrijska postrojenja. Naš tim vodi računa o kvalitetu instalacija i bezbednosti sistema, uz poštovanje svih standarda i propisa.",
+  text: "Bilo da želite bazen za privatnu upotrebu, hotel, spa centar ili wellness kompleks, termo bazeni su idealno rešenje za vas!",
 };
+export interface IzradaBazenaData {
+  title: string;
+  text: string;
+  semititle: string;
+  linetext: string[];
+  image: string;
+  text2: string;
+}
+
+export const izradaBazenaData: IzradaBazenaData[] = [
+  {
+    title: "Odabir Lokacije za Bazen",
+    text: "Pravilno određivanje mesta za bazen ključno je za njegovu dugotrajnost i funkcionalnost. Pre početka radova, potrebno je izvršiti precizna merenja kako bi se bazen tačno pozicionirao u skladu s projektom.",
+    semititle: "Proces uključuje:",
+    linetext: [
+      "Obeležavanje tačne lokacije bazena na terenu",
+      "Trasiranje iskopa prema dimenzijama i obliku bazena",
+      "Uzimanje u obzir visine referentne tačke, odnosno buduće završne visine bazena",
+    ],
+    image: "/bazen (3).jpg",
+    text2:
+      "Ova faza osigurava da bazen bude savršeno uklopljen u prostor, uz optimalan nivo stabilnosti i estetski sklad sa okolinom.",
+  },
+  {
+    title: "Zemljani Radovi",
+    text: "Priprema terena započinje iskopom zemljišta, koji se može obaviti građevinskom mehanizacijom ili ručno, u slučaju otežanog pristupa.",
+    semititle: "Glavne faze iskopa:",
+    linetext: [
+      "Uklanjanje viška zemlje sa lokacije",
+      "Nivelacija dna iskopa kako bi površina bila što ravnija",
+      "Zbijanje tla radi stabilnosti i sprečavanja kasnijih pomeranja",
+    ],
+    image: "/bazen (3).jpg",
+    text2:
+      "Ovaj proces obezbeđuje čvrstu i stabilnu osnovu, pripremljenu za sledeće faze izgradnje bazena.",
+  },
+  {
+    title: "Armiranje",
+    text: "Nakon pripreme podloge, sledi postavljanje PE folije (najlona) koja služi kao zaštitni sloj. Preko nje se, prema projektu, postavlja armatura, koja obezbeđuje čvrstoću i stabilnost buduće armirano-betonske temeljne ploče.",
+    semititle: "",
+    linetext: [
+      "PE folija - sprečava gubitak vlage iz betona i štiti podlogu",
+      "Armatura - pravilno postavljena mreža osigurava dugotrajnost i otpornost konstrukcije",
+    ],
+    image: "/bazen (26).jpg",
+    text2:
+      "Ovaj korak je ključan za postizanje stabilne i izdržljive baze bazena.",
+  },
+  {
+    title: "Betoniranje",
+    text: "Temeljna ploča bazena izrađuje se od armirano-betonskog sloja čija debljina zavisi od projekta. Preporučuje se upotreba mašinski pripremljenog betona (MB 30), koji osigurava visoku čvrstoću i dugotrajnost konstrukcije.",
+    semititle: "",
+    linetext: [
+      "Precizno nivelisanje - Beton se izliva ravnomerno i bez padova, kako bi se postigla maksimalna stabilnost",
+      "Glančanje površine - Nakon izlivanja i poravnavanja, završna obrada osigurava glatku i ujednačenu podlogu",
+    ],
+    image: "/bazen (1).jpg",
+    text2:
+      "Ova faza je ključna za stvaranje pouzdane i čvrste osnove, spremne za nastavak izgradnje bazena.",
+  },
+  {
+    title: "Izgradnja i Formiranje Konstrukcije",
+    text: "Nakon završetka temelja, započinje montaža zidova bazena, pri čemu se koristi visokokvalitetna termoizolaciona struktura. Ovi zidovi omogućavaju stabilnost, dugotrajnost i energetsku efikasnost, dok se u ovoj fazi ugrađuju svi potrebni elementi za optimalno funkcionisanje bazena.",
+    semititle: "",
+    linetext: [
+      " Postavljanje termoizolacionih blokova za zidove bazena",
+      " Spajanje i fiksiranje elemenata prema projektu",
+      "Ojačavanje konstrukcije ugradnjom dodatne armature",
+      "Priprema zidova za sledeće faze hidroizolacije i instalacija",
+    ],
+    image: "/bazen (21).jpg",
+    text2: "",
+  },
+  {
+    title: "Ugradnja Cirkulacionog Sistema",
+    text: "Za pravilan rad bazena, neophodno je postaviti cirkulacione komponente unutar zidova. To uključuje skimere, mlaznice i podne slivnike, koji obezbeđuju nesmetan protok i filtraciju vode. Pravilna ugradnja ovog sistema garantuje čistu i zdravu vodu tokom celog korišćenja.",
+    semititle: "",
+    linetext: [
+      "Ugradnja skimer sistema za prikupljanje nečistoća",
+      "Postavljanje mlaznica koje omogućavaju ravnomernu cirkulaciju vode",
+      "Ugradnja podnog slivnika za odvod i drenažu bazena",
+      "Povezivanje svih elemenata sa planiranim cevovodom",
+    ],
+    image: "/bazen (19).jpg",
+    text2: "",
+  },
+  {
+    title: "Postavljanje Hidroizolacije",
+    text: "Kako bi bazen bio potpuno vodonepropustan, sledi ugradnja hidroizolacionih slojeva. Ovaj proces podrazumeva upotrebu kvalitetnih PVC membrana i zaštitnih premaza, čime se sprečava prodiranje vode i produžava vek trajanja bazena.",
+    semititle: "",
+    linetext: [
+      "Postavljanje geotekstila kao zaštitnog sloja",
+      "Ugradnja hidroizolacione PVC membrane visoke otpornosti",
+      "Završna obrada spojeva kako bi se osigurala potpuna nepropusnost",
+      "Testiranje hidroizolacije pre nastavka radova",
+    ],
+    image: "/bazen (12).jpg",
+    text2: "",
+  },
+  {
+    title: "Montaža Opreme i Završni Radovi",
+    text: "U završnoj fazi, sva ugovorena bazenska oprema se postavlja u mašinsku salu, gde se povezuju pumpe, filteri i automatizovani sistemi za održavanje bazena. Nakon povezivanja svih komponenti sa cirkulacionim sistemom, bazen se pušta u rad, testira i priprema za korišćenje.",
+    semititle: "",
+    linetext: [
+      "Montaža filtera i pumpi za održavanje kvaliteta vode",
+      "Povezivanje cevi i ventila sa sistemom za cirkulaciju",
+      "Instalacija dodatne opreme (osvetljenje, grejači, automatizovani sistemi)",
+      " Završno testiranje i puštanje bazena u funkciju",
+    ],
+    image: "/bazen (10).jpg",
+    text2: "",
+  },
+];

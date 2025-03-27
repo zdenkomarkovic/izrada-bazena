@@ -44,10 +44,7 @@ const Cards2 = ({
             })}
           </div>
         </div>
-        <p className="first-letter:pl-6 text-xl md:text-3xl">
-          Bilo da želite bazen za privatnu upotrebu, hotel, spa centar ili
-          wellness kompleks, termo bazeni su idealno rešenje za vas!
-        </p>
+        <p className="first-letter:pl-6 text-xl md:text-3xl">{text.text}</p>
       </div>
     </div>
   );
