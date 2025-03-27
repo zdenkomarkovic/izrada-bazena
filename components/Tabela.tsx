@@ -3,12 +3,12 @@ import React from "react";
 const Tabela = () => {
   return (
     <div>
-      <div className="flex justify-around">
-        <div className="text-center flex flex-col">
-          <h3 className="text-4xl text-primary py-5">
+      <div className="flex flex-col md:flex-row justify-around">
+        <div className="text-center flex flex-col py-5 md:py-0">
+          <h3 className="text-2xl md:text-4xl text-primary py-5">
             Cenovnik za bazene 1,2m dubine
           </h3>
-          <table className="text-center text-3xl border border-primary p-5 ">
+          <table className="text-center text-xl md:text-3xl border border-primary p-5 ">
             <thead>
               <tr className="border-b border-primary">
                 <td className="px-5 py-1">Dimenzije</td>
@@ -51,10 +51,10 @@ const Tabela = () => {
           </table>
         </div>
         <div className="text-center flex flex-col">
-          <h3 className="text-4xl text-primary py-5">
+          <h3 className="text-2xl md:text-4xl text-primary py-5">
             Cenovnik za bazene 1,5m dubine
           </h3>
-          <table className="text-center text-3xl border border-primary p-5 ">
+          <table className="text-center text-xl md:text-3xl border border-primary p-5 ">
             <thead>
               <tr className="border-b border-primary">
                 <td className="px-5 py-1">Dimenzije</td>
@@ -97,7 +97,7 @@ const Tabela = () => {
           </table>
         </div>
       </div>
-      <p className="py-10 text-3xl text-center ">
+      <p className=" py-5 md:py-10 text-lg md:text-3xl text-center ">
         Jedan od trazenijih modela - Premijum Lux 8x4 prelivni + Rimsko
         stepeniste + Djakuzi za 5 osoba - 28000e
       </p>

@@ -10,8 +10,8 @@ import Fade from "embla-carousel-fade";
 import Autoplay from "embla-carousel-autoplay";
 
 import Hero1 from "../public/bazen (10).jpg";
-import Hero2 from "../public/bazen (1).jpg";
-import Hero3 from "../public/bazen (1).jpg";
+import Hero2 from "../public/bazen (27).jpg";
+import Hero3 from "../public/bazen (31).jpg";
 
 import Image from "next/image";
 
@@ -55,9 +55,9 @@ const Hero = () => {
         </CarouselContent>
       </Carousel>
       <div className=" flex w-full items-center justify-center z-[1] text-center">
-        <h1 className="flex flex-col gap-20 text-primary text-xl md:text-8xl font-bold ">
+        <h1 className="flex flex-col gap-20 text-white text-5xl md:text-8xl font-bold ">
           Grad Mont{" "}
-          <span className=" text-7xl text-white">
+          <span className="text-4xl md:text-7xl">
             Stručnjaci za Termo Bazene
           </span>
         </h1>

@@ -22,10 +22,10 @@ export default function Footer() {
 
               <li>
                 <Link
-                  href="/usluge"
+                  href="/bazeni"
                   className="text-muted-foreground hover:text-primary"
                 >
-                  Usluge
+                  Bazeni
                 </Link>
               </li>
 

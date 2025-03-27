@@ -98,7 +98,7 @@ export default function Header() {
             height={50}
             className="rounded-full"
           />{" "}
-          <p className="text-2xl">Grad Mont</p>
+          <p className="text-2xl hidden md:block">Grad Mont</p>
         </Link>
         <DesktopNav />
         <Link href="tel:+381603619391">

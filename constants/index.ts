@@ -18,10 +18,6 @@ export const navList = [
     link: "/bazeni",
   },
   {
-    title: "Izrada Bazena",
-    link: "/Izradabazena",
-  },
-  {
     title: "Kontakt",
     link: "/kontakt",
   },
@@ -286,7 +282,7 @@ export const izradaBazenaData: IzradaBazenaData[] = [
       "Trasiranje iskopa prema dimenzijama i obliku bazena",
       "Uzimanje u obzir visine referentne tačke, odnosno buduće završne visine bazena",
     ],
-    image: "/bazen (3).jpg",
+    image: "/bazen (30).jpg",
     text2:
       "Ova faza osigurava da bazen bude savršeno uklopljen u prostor, uz optimalan nivo stabilnosti i estetski sklad sa okolinom.",
   },
