@@ -295,7 +295,7 @@ export const izradaBazenaData: IzradaBazenaData[] = [
       "Nivelacija dna iskopa kako bi površina bila što ravnija",
       "Zbijanje tla radi stabilnosti i sprečavanja kasnijih pomeranja",
     ],
-    image: "/bazen (3).jpg",
+    image: "/bazen (32).jpg",
     text2:
       "Ovaj proces obezbeđuje čvrstu i stabilnu osnovu, pripremljenu za sledeće faze izgradnje bazena.",
   },
