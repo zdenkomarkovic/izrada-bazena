@@ -7,7 +7,7 @@ const BackgroundImage = () => {
       {/* <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-[1]" /> */}
       <Image
         src={"/bazen (28).jpg"}
-        alt="slep puric"
+        alt="bazeni"
         fill
         className="w-full h-full  object-cover"
       />

@@ -20,7 +20,7 @@ const Cards2 = ({
         <p className="first-letter:pl-6 text-xl md:text-3xl">
           Termo bazeni su specijalni bazeni izrađeni od{" "}
           <span className="font-bold text-primary">
-            termoizolacionih panela{" "}
+            termoizolacionih blokova{" "}
           </span>
           koji pružaju{" "}
           <span className="font-bold text-primary">
