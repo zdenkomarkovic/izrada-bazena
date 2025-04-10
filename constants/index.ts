@@ -7,6 +7,9 @@ import { IoIosPeople } from "react-icons/io";
 import { IoIosPerson } from "react-icons/io";
 import { PiRocketLaunchBold } from "react-icons/pi";
 import { LuTimerReset } from "react-icons/lu";
+import { FaReact } from "react-icons/fa";
+import { IoWater } from "react-icons/io5";
+import { LuClockAlert } from "react-icons/lu";
 
 export const navList = [
   {
@@ -233,19 +236,19 @@ export interface Cards2Data {
 export const cards2Data: Cards2Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: FaReact,
     title: "Energetska efikasnost",
     text: "Manja potrošnja struje i brže zagrevanje vode",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: IoWater,
     title: "Manji gubitak vode",
     text: "Termoizolacija smanjuje isparavanje i održava optimalnu temperaturu",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: LuClockAlert,
     title: "Brza i jednostavna izgradnja",
     text: "Postavljanje termo bazena je brže i jeftinije u odnosu na klasične betonske bazene",
   },
