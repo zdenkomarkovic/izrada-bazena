@@ -10,6 +10,10 @@ import { LuTimerReset } from "react-icons/lu";
 import { FaReact } from "react-icons/fa";
 import { IoWater } from "react-icons/io5";
 import { LuClockAlert } from "react-icons/lu";
+import { BsTools } from "react-icons/bs";
+import { LiaShippingFastSolid } from "react-icons/lia";
+import { TbSettingsCheck } from "react-icons/tb";
+import { MdOutlinePool } from "react-icons/md";
 
 export const navList = [
   {
@@ -126,31 +130,31 @@ export interface Cards1Data {
 export const cards1Data: Cards1Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: BsTools,
     title: "Vrhunska Kvalitetna Izrada",
     text: "Koristimo najkvalitetnije termoizolacione materijale za dug vek trajanja.",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: MdOutlinePool,
     title: "Individualni Pristup",
     text: "Svaki bazen dizajniramo i izrađujemo prema željama klijenta.",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: FaReact,
     title: "Energetska Efikasnost",
     text: "Ušteda energije i održavanje optimalne temperature vode.",
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: LiaShippingFastSolid,
     title: "Brza Montaža",
     text: "Kratki rokovi izrade i minimalni građevinski radovi.",
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: TbSettingsCheck,
     title: "Kompletna Usluga",
     text: " Od projektovanja i izrade do održavanja i servisa.",
   },
@@ -254,7 +258,7 @@ export const cards2Data: Cards2Data[] = [
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: MdOutlinePool,
     title: "Dugotrajnost i otpornost",
     text: "Visokokvalitetni materijali otporni na vremenske uslove i hemijske uticaje",
   },
