@@ -60,7 +60,7 @@ export default function Footer() {
           <div className="md:col-span-1 col-span-2 text-center text-primary">
             <h3 className="text-lg font-semibold mb-2 md:mb-4">Grad Mont</h3>
 
-            <p className=" font-bold ">starter poruka</p>
+            <p className=" font-bold ">Bazeni za sve namene</p>
           </div>
         </div>
 
